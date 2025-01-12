@@ -11,7 +11,7 @@ if (!isset($_SESSION['user_id'])) {
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard - LitMind Demo</title>
+    <title>Dashboard - MaNICO</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
