@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - LitMind Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+    
+    <form action="php/handle_signup.php" method="POST" id="signupForm">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Log in here</a>.</p>
+</body>
+</html>
